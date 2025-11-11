@@ -22,7 +22,7 @@ variable "client_id" {
 variable "client_secret" {
         }
 
-source "azure-arm" "win11_24h2_avd_fbmprodstage" {
+source "azure-arm" "win11_24h2_avd_fbmcdt" {
     subscription_id     = var.subscription_id
     tenant_id           = var.tenant_id
     client_id           = var.client_id
@@ -43,10 +43,10 @@ source "azure-arm" "win11_24h2_avd_fbmprodstage" {
 
     shared_image_gallery_destination {
         subscription        = var.subscription_id
-        resource_group      = "fbm-wms-stage-avd"
-        gallery_name        = "acgazweuavdfbmprod01"
-        image_name          = "azure_windows_11_baseos_avd_24h2_gen2"
-        image_version       = "19.11.2025"
+        resource_group      = "fbm-wms-cdt-avd"
+        gallery_name        = "acgazweuavdfbmnonprod01"
+        image_name          = "azure_windows_11_baseos_avd_24h2_nonprod_gen2"
+        image_version       = "16.11.2025"
         replication_regions = ["westeurope","eastasia","eastus2","centralus"]
     }
 
@@ -59,7 +59,7 @@ source "azure-arm" "win11_24h2_avd_fbmprodstage" {
 
 build {
     name    = "AVD_Win11_24H2_Image_Build"
-    sources = ["source.azure-arm.win11_24h2_avd_fbmprodstage"]
+    sources = ["source.azure-arm.win11_24h2_avd_fbmcdt"]
 
   ##############################################
   # 1. Install FBM Applications
