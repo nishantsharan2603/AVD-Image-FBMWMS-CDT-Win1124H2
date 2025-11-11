@@ -72,7 +72,7 @@ build {
         "New-Item -ItemType Directory -Force -Path $path",
         "}",
         "cd C:\\AVDImage",
-        "Invoke-WebRequest -Uri 'https://avdprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_Install_Updated.ps1' -OutFile 'C:\\AVDImage\\AIB_Install_Updated.ps1'",
+        "Invoke-WebRequest -Uri 'https://avdnonprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_Install_Updated.ps1' -OutFile 'C:\\AVDImage\\AIB_Install_Updated.ps1'",
         "Start-Sleep -seconds 30",
         "& .\\AIB_Install_Updated.ps1"
         ]
@@ -91,7 +91,7 @@ build {
         "New-Item -ItemType Directory -Force -Path $path",
         "}",
         "cd C:\\AVDImage",
-        "Invoke-WebRequest -Uri 'https://avdprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_CustomSettings.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_CustomSettings.ps1'",
+        "Invoke-WebRequest -Uri 'https://avdnonprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_CustomSettings.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_CustomSettings.ps1'",
         "Start-Sleep -seconds 30",
         "& .\\AIB_AVD_CustomSettings.ps1"
         ]
@@ -160,7 +160,7 @@ build {
         "New-Item -ItemType Directory -Force -Path $path",
         "}",
         "cd C:\\AVDImage",
-        "Invoke-WebRequest -Uri 'https://avdprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_DisableServices.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_DisableServices.ps1'",
+        "Invoke-WebRequest -Uri 'https://avdnonprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_DisableServices.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_DisableServices.ps1'",
         "Start-Sleep -seconds 30",
         "& .\\AIB_AVD_DisableServices.ps1"
         ]
@@ -179,7 +179,7 @@ build {
         "New-Item -ItemType Directory -Force -Path $path",
         "}",
         "cd C:\\AVDImage",
-        "Invoke-WebRequest -Uri 'https://avdprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_DisableScheduleTask.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_DisableScheduleTask.ps1'",
+        "Invoke-WebRequest -Uri 'https://avdnonprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_DisableScheduleTask.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_DisableScheduleTask.ps1'",
         "Start-Sleep -seconds 30",
         "& .\\AIB_AVD_DisableScheduleTask.ps1"
         ]
@@ -198,7 +198,7 @@ build {
         "New-Item -ItemType Directory -Force -Path $path",
         "}",
         "cd C:\\AVDImage",
-        "Invoke-WebRequest -Uri 'https://avdprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_DisableWindowsTraces.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_DisableWindowsTraces.ps1'",
+        "Invoke-WebRequest -Uri 'https://avdnonprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_DisableWindowsTraces.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_DisableWindowsTraces.ps1'",
         "Start-Sleep -seconds 30",
         "& .\\AIB_AVD_DisableWindowsTraces.ps1"
         ]
@@ -217,7 +217,7 @@ build {
         "New-Item -ItemType Directory -Force -Path $path",
         "}",
         "cd C:\\AVDImage",
-        "Invoke-WebRequest -Uri 'https://avdprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_LanmanParameters.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_LanmanParameters.ps1'",
+        "Invoke-WebRequest -Uri 'https://avdnonprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_LanmanParameters.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_LanmanParameters.ps1'",
         "Start-Sleep -seconds 30",
         "& .\\AIB_AVD_LanmanParameters.ps1"
         ]
@@ -236,7 +236,7 @@ build {
         "New-Item -ItemType Directory -Force -Path $path",
         "}",
         "cd C:\\AVDImage",
-        "Invoke-WebRequest -Uri 'https://avdprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_ScheduleTaskTrendActivator.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_ScheduleTaskTrendActivator.ps1'",
+        "Invoke-WebRequest -Uri 'https://avdnonprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_ScheduleTaskTrendActivator.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_ScheduleTaskTrendActivator.ps1'",
         "Start-Sleep -seconds 30",
         "& .\\AIB_AVD_ScheduleTaskTrendActivator.ps1"
         ]
@@ -255,7 +255,7 @@ build {
         "New-Item -ItemType Directory -Force -Path $path",
         "}",
         "cd C:\\AVDImage",
-        "Invoke-WebRequest -Uri 'https://avdprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_UWPRemoval.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_UWPRemoval.ps1'",
+        "Invoke-WebRequest -Uri 'https://avdnonprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_UWPRemoval.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_UWPRemoval.ps1'",
         "Start-Sleep -seconds 30",
         "& .\\AIB_AVD_UWPRemoval.ps1"
         ]
@@ -274,7 +274,7 @@ build {
         "New-Item -ItemType Directory -Force -Path $path",
         "}",
         "cd C:\\AVDImage",
-        "Invoke-WebRequest -Uri 'https://avdprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_SecurityHardening.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_SecurityHardening.ps1'",
+        "Invoke-WebRequest -Uri 'https://avdnonprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_SecurityHardening.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_SecurityHardening.ps1'",
         "Start-Sleep -seconds 30",
         "& .\\AIB_AVD_SecurityHardening.ps1"
         ]
@@ -293,7 +293,7 @@ build {
         "New-Item -ItemType Directory -Force -Path $path",
         "}",
         "cd C:\\AVDImage",
-        "Invoke-WebRequest -Uri 'https://avdprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_SecurityToolInstallation_Nov.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_SecurityToolInstallation_Nov.ps1'",
+        "Invoke-WebRequest -Uri 'https://avdnonprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_SecurityToolInstallation_Nov.ps1' -OutFile 'C:\\AVDImage\\AIB_AVD_SecurityToolInstallation_Nov.ps1'",
         "Start-Sleep -seconds 30",
         "& .\\AIB_AVD_SecurityToolInstallation_Nov.ps1"
         ]
@@ -331,7 +331,7 @@ build {
         "}",
 
         "cd D:\\",
-        "Invoke-WebRequest -Uri 'https://avdprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_DiskCleanup.ps1' -OutFile 'D:\\AIB_AVD_DiskCleanup.ps1'",
+        "Invoke-WebRequest -Uri 'https://avdnonprodfbmstc01.blob.core.windows.net/sourcefbm/AIB_AVD_DiskCleanup.ps1' -OutFile 'D:\\AIB_AVD_DiskCleanup.ps1'",
         "Start-Sleep -seconds 30",
         "& .\\AIB_AVD_DiskCleanup.ps1"
         ]
