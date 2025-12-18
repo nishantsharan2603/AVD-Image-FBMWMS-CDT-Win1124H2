@@ -46,7 +46,7 @@ source "azure-arm" "win11_24h2_avd_fbmcdt" {
         resource_group      = "fbm-wms-cdt-avd"
         gallery_name        = "acgazweuavdfbmnonprod01"
         image_name          = "azure_windows_11_baseos_avd_24h2_nonprod_gen2"
-        image_version       = "16.11.2025"
+        image_version       = "16.12.2025"
         replication_regions = ["westeurope","eastasia","eastus2","centralus"]
     }
 
